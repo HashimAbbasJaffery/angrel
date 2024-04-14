@@ -9,8 +9,7 @@ class Route {
         if($_SERVER["REQUEST_METHOD"] !== "GET") throw new \Exception("Supported Method Get");
         
         [$controllerName, $method] = $hitpoint;
-        $url = "/angrel/" . $url;
-
+        
 
         self::$routes[str_replace("//", "/", $url)] = $hitpoint;
         

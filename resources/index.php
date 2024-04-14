@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>DHHU</h1>
-    <?php echo $data ?>
+    <?php echo $name ?>
 </body>
 </html>
